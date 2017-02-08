@@ -1,0 +1,145 @@
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5em;
+	background: url('img/city.jpg') no-repeat center center fixed; 
+	background-size: cover; 
+	min-width: 300px;	
+}
+
+.row {
+	margin-top: 200px;
+}
+
+form {
+	display: block;
+    margin-top: 0em;
+}
+
+h4 { /* Texto de Sign up */
+	display: block;
+	color: white;
+	padding: 15px 0;
+}
+
+.btn-just-icon { /* icons sociais */
+	color: white;
+	font-size: 18px;
+	padding: 10px 10px;
+}
+
+.footer .btn-start { /* botão de Get Started */
+	border: none;
+	background: white;
+	color: #3838a2;
+	border-radius: 3px;
+    position: relative;
+    padding: 12px 30px;
+    margin: 10px 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    will-change: box-shadow, transform;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .btn-start:active {
+	background: #c8e8ff;
+}
+
+.card { /* é o que dá forma à form */
+	display: inline-block; /* é o que faz o recorte em cima */
+	position: relative;
+	color: rgba(0,0,0, 0.87);
+	width: 100%;
+	border-radius: 3px; /* arredonda os cantos */
+	background: #fff; /* dá cor branca ao fundo */
+}
+
+.card .header {
+	margin: 15px;
+	border-radius: 3px;
+}
+
+.card .card-body {
+  height: 30%;
+  padding: 18px;
+}
+
+.card .card-footer {
+  height: 10%;
+  padding: 18px;
+}
+
+.card .header { /* o header azul */
+	box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+	margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+    padding: 20px 0;
+}
+
+.card .header-primary {
+    background: linear-gradient(60deg, rgb(114, 156, 235), #020a6b);
+}
+
+.input-group .input-group-addon { /* os icons */
+    border: 0; /* tira border aos icons */
+    background: transparent; /* dá transparencias aos icons */
+    padding: 12px 15px 0px; /* posiciona os icons */
+}
+
+.card-signup .text-divider { /* texto Or be Classical */
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.card-signup .content {
+    padding: 10px 30px 10px 10px;
+}
+
+.input-group {
+	padding: 20px 0 20px 0;
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
+
+.form-group {
+	padding-bottom: 7px;
+    margin: 27px 0 0 0;
+    
+}
+
+.form-control {
+	height: 36px; /* tamanho da caixa de texto*/
+	padding: 7px 0;
+	line-height: 1.42857;
+	box-shadow: none;
+	border: 0;
+	background-image: linear-gradient(#c8e8ff, #c8e8ff), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 2px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+input:focus {
+	outline: none;
+}
+.form-control:focus{
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+.input-group.is-focused .form-control {
+	outline:none;
+	background-image: linear-gradient(#1a2986, #1a2986), linear-gradient(#D2D2D2, #D2D2D2);
+	background-size: 100% 2px, 100% 1px;
+	box-shadow: none;
+	transition-duration: 0.3s  
+}
